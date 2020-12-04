@@ -13,7 +13,7 @@ require "db.php";
 <body>
 
 <?php if(isset($_SESSION['logged_user'])) : ?>
-	<h1>Привет, <?php echo $_SESSION['logged_user']->name;
+	<h1>Добро пожаловать, <?php echo $_SESSION['logged_user']->name;
 	?></br></h1>
  <br>
 <a href="logout.php" class="btn btn-success">Выйти</a>
